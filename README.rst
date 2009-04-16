@@ -8,6 +8,6 @@ how to use
 
 Clone this bundle into your local bundle directory by running the following command:
 
-``git clone git://github.com/richleland/textmate-disco.git Discovery Creative.tmbundle``
+``git clone git://github.com/richleland/textmate-disco.git DiscoveryCreative.tmbundle``
 
 Your local bundle directory should be located at ~/Library/Application Support/TextMate/Bundles/ on most machines.
