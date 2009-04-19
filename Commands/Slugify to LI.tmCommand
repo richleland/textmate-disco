@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/env python
+import re
+from sys import stdin, stdout
+from urllib import quote
+input = stdin.readlines()
+slugified = ''.join([re.sub('[-\s]+', '-', re.sub('[^\w\s-]', '', line)).strip().lower() for line in input])
+output = '&lt;li id="%s"&gt;&lt;a href="index.php?section=%s&amp;amp;page=%s&amp;amp;title=%s"&gt;%s&lt;/a&gt;&lt;/li&gt;' % (slugified, slugified, slugified, quote(''.join(input)), ''.join(input))
+stdout.write(output)</string>
+	<key>fallbackInput</key>
+	<string>line</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>keyEquivalent</key>
+	<string>@J</string>
+	<key>name</key>
+	<string>Slugify to LI</string>
+	<key>output</key>
+	<string>replaceSelectedText</string>
+	<key>uuid</key>
+	<string>D506BE09-19F9-43E6-A889-78904347A854</string>
+</dict>
+</plist>
