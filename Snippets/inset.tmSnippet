@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleUUID</key>
+	<string>4DF59E17-E077-496F-89C1-40A25D0D98D7</string>
+	<key>content</key>
+	<string>&lt;div class="inset"&gt;
+    &lt;div class="top"&gt;
+         &lt;div class="right"&gt;
+              &lt;div class="left"&gt;
+                   &lt;div class="bottom"&gt;
+                       &lt;div class="top-right"&gt;
+                           &lt;div class="bottom-left"&gt;
+                                &lt;div class="bottom-right"&gt;
+                                     &lt;div class="top-left"&gt;
+                                          content goes here  
+                                      &lt;/div&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                       &lt;/div&gt;
+                  &lt;/div&gt;
+             &lt;/div&gt;
+        &lt;/div&gt;
+  	&lt;/div&gt;
+&lt;/div&gt;
+</string>
+	<key>name</key>
+	<string>inset</string>
+	<key>tabTrigger</key>
+	<string>inset</string>
+	<key>uuid</key>
+	<string>D7B10F28-2C44-417A-B789-4BD3A924A18F</string>
+</dict>
+</plist>
